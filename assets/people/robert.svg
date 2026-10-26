@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Profile placeholder with initials RP">
+  <rect width="400" height="400" fill="#111111"/>
+  <circle cx="200" cy="200" r="160" fill="#1c1c1c"/>
+  <text x="200" y="228" text-anchor="middle" font-family="Segoe UI, system-ui, sans-serif" font-size="120" font-weight="650" fill="#FFFFFF" letter-spacing="4">RP</text>
+</svg>
