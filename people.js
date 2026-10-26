@@ -40,8 +40,9 @@ const people = {
     businessLink: "",
     email: "robert@patiotechwholesale.com.au",
     slogan: "Outdoor Living. Engineered",
-    avatar: "assets/people/robert.svg",
+    avatar: "assets/icon-512.png",
     cover: "assets/cover.jpg",
+    shareImage: "assets/share-logo.png",
     cardQrImage: "assets/qr-card-robert.png",
     cardQrUrl: "https://goomoralybeam.github.io/TechspecsVirtualCard/?person=robert",
     cardQrLabel: "Scan for this card"

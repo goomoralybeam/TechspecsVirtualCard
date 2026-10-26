@@ -40,8 +40,9 @@ const FALLBACK_PROFILE = {
   businessLink: "",
   email: "robert@patiotechwholesale.com.au",
   slogan: "Outdoor Living. Engineered",
-  avatar: "assets/people/robert.svg",
+  avatar: "assets/icon-512.png",
   cover: "assets/cover.jpg",
+  shareImage: "assets/share-logo.png",
   cardQrImage: "assets/qr-card-robert.png",
   cardQrUrl: "https://goomoralybeam.github.io/TechspecsVirtualCard/?person=robert",
   cardQrLabel: "Scan for this card",
@@ -180,10 +181,11 @@ function applyProfile(slug, profile) {
   setMeta("meta-author", "content", `${profile.fullName}, ${profile.company}`);
   setMeta("og-title", "content", title);
   setMeta("og-description", "content", description);
-  setMeta("og-image", "content", profile.cover);
+  const shareImage = profile.shareImage || "assets/share-logo.png";
+  setMeta("og-image", "content", shareImage);
   setMeta("twitter-title", "content", title);
   setMeta("twitter-description", "content", description);
-  setMeta("twitter-image", "content", profile.cover);
+  setMeta("twitter-image", "content", shareImage);
 
   const cover = document.getElementById("cover-image");
   if (cover) {
