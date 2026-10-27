@@ -22,10 +22,10 @@ const companyInfo = {
   addressPostcode: "4077",
   addressCountry: "Australia",
   hoursDisplay: "",
-  websiteDisplay: "tech-specs.com.au",
-  websiteUrl: "https://www.tech-specs.com.au",
+  websiteDisplay: "techspecs.com.au",
+  websiteUrl: "https://techspecs.com.au",
   qrImage: "assets/qr-website.png",
-  qrUrl: "https://www.tech-specs.com.au",
+  qrUrl: "https://techspecs.com.au",
   qrLabel: "Scan for website"
 };
 
@@ -38,9 +38,9 @@ const people = {
     mobileLink: "",
     businessDisplay: "",
     businessLink: "",
-    email: "robert@patio-tech.com.au",
+    email: "robert@techspecs.com.au",
     slogan: "Outdoor Living. Engineered",
-    avatar: "assets/icon-512.png",
+    avatar: "assets/icon-512.png?v=20261027k",
     cover: "assets/cover.jpg",
     shareImage: "assets/share-logo.png",
     cardQrImage: "assets/qr-card-robert.png",

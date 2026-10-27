@@ -1,6 +1,6 @@
 # TechSpecs — Digital Business Card
 
-Static digital business card for **TechSpecs**, matching the branding on [tech-specs.com.au](https://www.tech-specs.com.au/).
+Static digital business card for **TechSpecs**, matching the branding on [techspecs.com.au](https://techspecs.com.au/).
 
 One HTML page. The profile lives in `people.js`. Save, copy, and share run in the browser.
 
@@ -38,10 +38,10 @@ Company details from the website:
 
 - Logo: TechSpecs Outdoor Living
 - Tagline: Outdoor Living. Engineered
-- Website: https://www.tech-specs.com.au
+- Website: https://techspecs.com.au
 - Address: 21/12 Luther James Close, Doolandella QLD 4077
 
-Email on the card: robert@patio-tech.com.au. The site does not publish a phone or opening hours, so those rows stay hidden until you add them in `people.js`.
+Email on the card: robert@techspecs.com.au. The site does not publish a phone or opening hours, so those rows stay hidden until you add them in `people.js`.
 
 ---
 

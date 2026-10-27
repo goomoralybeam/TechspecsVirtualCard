@@ -23,10 +23,10 @@ const FALLBACK_COMPANY_INFO = {
   addressPostcode: "4077",
   addressCountry: "Australia",
   hoursDisplay: "",
-  websiteDisplay: "tech-specs.com.au",
-  websiteUrl: "https://www.tech-specs.com.au",
+  websiteDisplay: "techspecs.com.au",
+  websiteUrl: "https://techspecs.com.au",
   qrImage: "assets/qr-website.png",
-  qrUrl: "https://www.tech-specs.com.au",
+  qrUrl: "https://techspecs.com.au",
   qrLabel: "Scan for website"
 };
 
@@ -38,9 +38,9 @@ const FALLBACK_PROFILE = {
   mobileLink: "",
   businessDisplay: "",
   businessLink: "",
-  email: "robert@patio-tech.com.au",
+  email: "robert@techspecs.com.au",
   slogan: "Outdoor Living. Engineered",
-  avatar: "assets/icon-512.png",
+  avatar: "assets/icon-512.png?v=20261027k",
   cover: "assets/cover.jpg",
   shareImage: "assets/share-logo.png",
   cardQrImage: "assets/qr-card-robert.png",
@@ -166,10 +166,12 @@ function applyProfile(slug, profile) {
 
   document.querySelectorAll("[data-field]").forEach((el) => {
     const key = el.getAttribute("data-field");
+    if (key === "slogan") return;
     if (key && Object.prototype.hasOwnProperty.call(profile, key)) {
       el.textContent = profile[key] || "";
     }
   });
+  renderSlogan(profile);
 
   const title = `${profile.fullName} · ${profile.company}`;
   const description = [profile.role, profile.company, profile.slogan]
@@ -286,6 +288,30 @@ function applyProfile(slug, profile) {
   }
 
   updateSaveLink(profile);
+}
+
+function renderSlogan(profile) {
+  const slogan = document.querySelector(".slogan");
+  if (!slogan) return;
+  const text = filled(profile.slogan) ? String(profile.slogan).trim() : "";
+  slogan.replaceChildren();
+  if (!text) return;
+
+  const splitAt = text.indexOf(".");
+  const lead = document.createElement("span");
+  lead.className = "slogan-lead";
+  const rest = document.createElement("span");
+  rest.className = "slogan-rest";
+
+  if (splitAt === -1) {
+    lead.textContent = text;
+    slogan.append(lead);
+    return;
+  }
+
+  lead.textContent = text.slice(0, splitAt + 1);
+  rest.textContent = text.slice(splitAt + 1).trim();
+  slogan.append(lead, document.createTextNode(" "), rest);
 }
 
 function setMeta(id, attr, value) {

@@ -1,7 +1,7 @@
 /* =========================================================
    TechSpecs — Digital Business Card
    Theme: Black · Brand green #5AB409 · White
-   Matches tech-specs.com.au
+   Matches techspecs.com.au
    ========================================================= */
 
 :root {
@@ -257,6 +257,14 @@ button {
   font-weight: 650;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  color: var(--green);
+}
+
+.identity .slogan-lead {
+  color: #8a8a8a;
+}
+
+.identity .slogan-rest {
   color: var(--green);
 }
 
