@@ -41,7 +41,7 @@ Company details from the website:
 - Website: https://www.tech-specs.com.au
 - Address: 21/12 Luther James Close, Doolandella QLD 4077
 
-Email on the card: robert@patiotechwholesale.com.au. The site does not publish a phone or opening hours, so those rows stay hidden until you add them in `people.js`.
+Email on the card: robert@patio-tech.com.au. The site does not publish a phone or opening hours, so those rows stay hidden until you add them in `people.js`.
 
 ---
 

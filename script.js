@@ -38,7 +38,7 @@ const FALLBACK_PROFILE = {
   mobileLink: "",
   businessDisplay: "",
   businessLink: "",
-  email: "robert@patiotechwholesale.com.au",
+  email: "robert@patio-tech.com.au",
   slogan: "Outdoor Living. Engineered",
   avatar: "assets/icon-512.png",
   cover: "assets/cover.jpg",
