@@ -32,7 +32,7 @@ const companyInfo = {
 const people = {
   robert: {
     fullName: "Robert Piez",
-    role: "Structural Engineer and Designer",
+    role: "Owner / Manager",
     company: "TechSpecs",
     mobileDisplay: "",
     mobileLink: "",

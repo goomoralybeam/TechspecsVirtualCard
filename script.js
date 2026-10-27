@@ -32,7 +32,7 @@ const FALLBACK_COMPANY_INFO = {
 
 const FALLBACK_PROFILE = {
   fullName: "Robert Piez",
-  role: "Structural Engineer and Designer",
+  role: "Owner / Manager",
   company: "TechSpecs",
   mobileDisplay: "",
   mobileLink: "",

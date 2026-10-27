@@ -32,7 +32,7 @@ In the repository, open **Settings → Pages**, choose branch `main` and folder 
 
 ## Profile
 
-Robert Piez, Structural Engineer and Designer.
+Robert Piez, Owner / Manager.
 
 Company details from the website:
 
